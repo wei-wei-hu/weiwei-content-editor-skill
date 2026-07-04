@@ -1,6 +1,6 @@
-# Weiwei Content Editor — a Claude Skill
+# Weiwei Content Editor
 
-A custom [Claude Skill](https://www.anthropic.com/news/skills) that turns Claude into a personal executive-content editor: it evaluates source material, builds outlines, edits drafts, converts articles into podcast scripts, and repurposes one piece of content into a full multi-platform package — all in a consistent personal voice, with strict source-integrity rules.
+A custom claude skills package that runs a personal executive-content editor: it evaluates source material, builds outlines, edits drafts, converts articles into podcast scripts, and repurposes one piece of content into a full multi-platform package — all in a consistent personal voice, with strict source-integrity rules.
 
 > **Note:** This is a public showcase of the skill's design. The skill itself — the prompt library, voice rules, workflows, and templates — is proprietary and lives in a private repository. All rights reserved.
 
