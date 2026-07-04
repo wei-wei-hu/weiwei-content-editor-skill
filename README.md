@@ -56,4 +56,4 @@ Built by **Weiwei Hu** — executive content on AI adoption, analytics leadershi
 
 ---
 
-Copyright (c) 2026 Weiwei Hu. All rights reserved. This README describes the skill for portfolio purposes; the skill contents are not licensed for reuse.
+Copyright (c) 2026 Weiwei Hu. This showcase is licensed under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) — you may share it with credit, but not modify or use it commercially. The skill itself (prompts, voice rules, workflows, templates) is proprietary and all rights to it are reserved.
