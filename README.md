@@ -1,4 +1,4 @@
-# Weiwei Content Editor
+# Weiwei's Content Editor
 
 A custom claude skills package that runs a personal executive-content editor: it evaluates source material, builds outlines, edits drafts, converts articles into podcast scripts, and repurposes one piece of content into a full multi-platform package, all in a consistent personal voice, with strict source-integrity rules.
 
