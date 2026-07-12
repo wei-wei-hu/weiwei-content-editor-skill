@@ -18,15 +18,13 @@ A custom skills package that runs a personal executive-content editor: it evalua
 
 ## Where it creates the most value
 
-The skill works at three moments in the life of a piece, and the earliest moments pay the most.
-
-**Before a draft exists.** Paste raw notes, a transcript, or a half-formed idea and ask for the strongest angle. The skill scores candidate directions for timeliness, narrative pull, and evidence, and tells you honestly which parts your audience has already read a hundred times. It also asks for the real story behind the idea instead of inventing one, because a true moment of struggle beats three plausible hypotheticals.
+**Before a draft exists.** Paste raw notes or a half-formed idea and ask for the strongest angle. The skill scores candidate directions for timeliness, narrative pull, and evidence, and tells you honestly which parts your audience has already read a hundred times. It also asks for the real story behind the idea instead of inventing one, because a true moment of struggle beats three plausible hypotheticals.
 
 **While writing.** Structural editing (front-load the value, face the strongest objections, plant one memorable line), line-level iteration on titles and hooks with verdict-first feedback, and citation work that goes beyond formatting: finding primary sources, verifying product names, flagging stale statistics, and stripping tracking parameters before they reach the public.
 
-**After publishing.** Repurposing one piece into a companion feed post, carousel notes, and a lightweight promotion plan, plus series consistency: sequels link back, frameworks never repeat across pieces, and the voice stays recognizable from one article to the next.
+**After publishing.** Repurposing one piece into a feed post, carousel notes, and a lightweight promotion plan, plus series consistency: sequels link back, frameworks never repeat across pieces, and the voice stays recognizable from one article to the next.
 
-It also checks grammar. That is simply the least interesting thing it does.
+It also checks grammar. 
 
 ## Design principles
 
