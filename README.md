@@ -31,11 +31,10 @@ It also checks grammar. That is simply the least interesting thing it does.
 ## Design principles
 
 - **Source facts are sacred.** The skill never invents examples, data, quotes, or names. Missing information is flagged as `Not provided` or `Proof needed` instead of papered over.
-- **Outline before draft.** Long-form work is gated on an approved outline, so revisions happen at the cheap stage.
-- **The latest human version wins.** The skill treats the author's most recent edit as the source of truth and never silently reverts it.
-- **Voice is enforced, not hoped for.** A reference file defines tone, banned filler words, and banned sentence patterns: the tells that make writing sound AI-generated.
-- **The formula is codified.** A "viral DNA" reference captures the reusable structure of the best-performing pieces: a personal confession that creates recognition, one contrarian reframe in the first 100 words, a numbered framework with copy-paste elements, and a close that gives permission instead of pressure.
-- **Every point must survive one test:** *what can an executive do after reading this?*
+- **Outline before draft.** Long-form work is gated on an approved outline.
+- **The latest human version wins.** The skill treats the author's most recent edit as the source of truth.
+- **Voice is enforced.** A reference file defines the tone, banned filler words, and banned sentence patterns: the tells that make writing sound AI-generated.
+- **Every point must survive one test:** *what can my target audience do after reading this content?*
 
 ## Architecture
 
