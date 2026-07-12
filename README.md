@@ -53,17 +53,18 @@ A small entry file holds the rules and decides which deeper instructions to load
 ```
 weiwei-content-editor/
 ├── SKILL.md                  # entry point: rules, routing, response pattern
-├── workflows/                # 9 task-specific procedures
+├── workflows/                # 10 task-specific procedures
 │   ├── content-intake.md
 │   ├── deep-evaluation.md
 │   ├── linkedin-newsletter-outline.md
 │   ├── podcast-conversion.md
 │   ├── editing-and-polish.md
 │   ├── argument-piece.md
+│   ├── engagement-mining.md
 │   ├── source-integrity.md
 │   ├── repurpose-package.md
 │   └── visual-content-prompting.md
-├── references/               # voice & style, viral DNA formula, prompt library, content pillars
+├── references/               # voice & style, tone profile, engagement insights, prompt library, content pillars
 ├── templates/                # canonical output formats
 ├── checklists/               # final-review gate before delivery
 └── examples/                 # sample trigger requests
