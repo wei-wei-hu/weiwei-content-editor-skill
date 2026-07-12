@@ -66,12 +66,12 @@ The skill was iteratively improved and benchmarked with Anthropic's skill-creato
 
 ## Author
 
-Built by **Weiwei Hu**. Executive content on AI adoption, analytics leadership, and career strategy.
+Built by **Weiwei Hu**. 
 
 Read the work this skill produces:
 
-- [Second Draft Studio](https://seconddraftstudio.substack.com/), her newsletter
-- [Medium](https://medium.com/@weiwei.hu)
+- Newsletter: [Second Draft Studio](https://seconddraftstudio.substack.com/)
+- Medium: [Medium](https://medium.com/@weiwei.hu)
 
 ---
 
