@@ -38,6 +38,14 @@ This is the AI editing skill behind what I publish. It knows my voice, checks my
 - **The formula is written down.** My best-performing pieces share a structure (a personal story that creates recognition, one surprising reframe early, a numbered framework with copy-paste value, and a warm close), and the skill applies it to new drafts.
 - **Every point faces one question:** what can my target audience do after reading this content?
 
+## How it learned my style
+
+The skill does not guess what "engaging" means. I ran my most engaged published pieces through an analysis workflow that compares them against my average ones and extracts what the winners actually do: how they open, how the sentences move, where the reader gets something to copy, and how they close.
+
+The result is a tone profile: twenty-six specific writing devices across four registers (personal narrative, coaching, explainer, and field report). Every new draft gets identified by register first, then edited against that register's devices, so "make it engaging" means something concrete and testable instead of a vibe.
+
+The loop keeps running. Each new piece I publish becomes input for the next analysis: patterns that keep working get promoted into the profile, and patterns the evidence contradicts get retired. The honesty rules are strict: every finding is labeled confirmed or hypothesis, correlation is never treated as causation, and no metric is ever invented.
+
 ## How it is organized
 
 A small entry file holds the rules and decides which deeper instructions to load for each task, so the skill stays fast and focused.
