@@ -1,6 +1,6 @@
 # Weiwei's Content Editor
 
-This is the AI editing skill behind everything I publish. It knows my voice, checks my grammar, verifies my sources, and tells me honestly when a draft is not ready.
+This is the AI editing skill behind what I publish. It knows my voice, checks my grammar, verifies my sources, and tells me honestly when a draft is not ready.
 
 > **Note:** This is a public showcase of the skill's design. The skill runs on both Claude Code and OpenAI Codex. The skill itself (the prompt library, voice rules, workflows, and templates) is proprietary and lives in a private repository. All rights reserved.
 
