@@ -22,6 +22,7 @@ A custom claude skills package that runs a personal executive-content editor: it
 - **Outline before draft.** Long-form work is gated on an approved outline, so revisions happen at the cheap stage.
 - **The latest human version wins.** The skill treats the author's most recent edit as the source of truth and never silently reverts it.
 - **Voice is enforced, not hoped for.** A reference file defines tone, banned filler words, and banned sentence patterns: the tells that make writing sound AI-generated.
+- **The formula is codified.** A "viral DNA" reference captures the reusable structure of the best-performing pieces: a personal confession that creates recognition, one contrarian reframe in the first 100 words, a numbered framework with copy-paste elements, and a close that gives permission instead of pressure.
 - **Every point must survive one test:** *what can an executive do after reading this?*
 
 ## Architecture
@@ -31,16 +32,17 @@ The skill uses progressive disclosure: a compact `SKILL.md` entry point that loa
 ```
 weiwei-content-editor/
 ├── SKILL.md                  # entry point: rules, routing, response pattern
-├── workflows/                # 8 task-specific procedures
+├── workflows/                # 9 task-specific procedures
 │   ├── content-intake.md
 │   ├── deep-evaluation.md
 │   ├── linkedin-newsletter-outline.md
 │   ├── podcast-conversion.md
 │   ├── editing-and-polish.md
+│   ├── argument-piece.md
 │   ├── source-integrity.md
 │   ├── repurpose-package.md
 │   └── visual-content-prompting.md
-├── references/               # voice & style, prompt library, content pillars
+├── references/               # voice & style, viral DNA formula, prompt library, content pillars
 ├── templates/                # canonical output formats
 ├── checklists/               # final-review gate before delivery
 └── examples/                 # sample trigger requests
