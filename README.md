@@ -1,42 +1,46 @@
 # Weiwei's Content Editor
 
-A custom skills package that runs a personal executive-content editor: it evaluates source material, builds outlines, edits drafts, converts articles into podcast scripts, and repurposes one piece of content into a full multi-platform package, all in a consistent personal voice, with strict source-integrity rules.
+This is the AI editing skill behind everything I publish. It knows my voice, checks my grammar, verifies my sources, and tells me honestly when a draft is not ready.
 
 > **Note:** This is a public showcase of the skill's design. The skill runs on both Claude Code and OpenAI Codex. The skill itself (the prompt library, voice rules, workflows, and templates) is proprietary and lives in a private repository. All rights reserved.
 
-## What it does
+## The two jobs it never skips
 
-| Capability | Example request |
+**Grammar and language checks.** Every draft gets a full pass for grammar, punctuation, capitalization, and garbled sentences, including the damage that happens when text travels between editors. It also catches the quieter problems: the same word landing twice in two sentences, doubled emphasis, broken lists, and phrasing that sounds like a machine wrote it.
+
+**Source and reference verification.** Every fact has to earn its place. The skill finds the primary source behind a citation, checks that product and company names are current and correct, flags statistics that have gone stale, and strips tracking parameters from links before anything goes public. When a claim cannot be verified, it gets marked as unverified instead of published as fact.
+
+## What else it does
+
+| I ask | It delivers |
 |---|---|
-| Deep content evaluation | "Rerun the analysis. Which direction is strongest?" |
-| Newsletter outlining | "Show me the best outline first, wait for my approval" |
-| Draft editing & polish | "Make this more practical. Do not compress or drop content." |
-| Podcast / YouTube conversion | "Turn this transcript into a 20-minute episode outline" |
-| Content repurposing | "Turn this article into a post, carousel notes, and a promo note" |
-| Visual prompt engineering | "One image per slide, 16:9, no collage" |
-| Source integrity auditing | "Did you leverage all uploaded content? Show me where." |
+| "Which direction is strongest?" | Scores the candidate angles and says which ones readers have already seen a hundred times |
+| "Show me the outline first" | An outline for approval before any full draft gets written |
+| "Make this more practical" | An edit that keeps every idea and adds what a reader can actually do |
+| "Turn this transcript into an episode" | A podcast or YouTube outline in a warm host voice |
+| "Repurpose this article" | A feed post, carousel notes, and a promotion plan from one source |
+| "One image per slide, 16:9, no collage" | Visual prompts in a consistent hand-drawn style |
 
-## Where it creates the most value
+## Where it helps most
 
-**Before a draft exists.** Paste raw notes or a half-formed idea and ask for the strongest angle. The skill scores candidate directions for timeliness, narrative pull, and evidence, and tells you honestly which parts your audience has already read a hundred times. It also asks for the real story behind the idea instead of inventing one, because a true moment of struggle beats three plausible hypotheticals.
+**Before I write.** I paste raw notes and ask for the strongest angle. It also asks me for the real story behind the idea instead of making one up, because a true moment beats three plausible inventions.
 
-**While writing.** Structural editing (front-load the value, face the strongest objections, plant one memorable line), line-level iteration on titles and hooks with verdict-first feedback, and citation work that goes beyond formatting: finding primary sources, verifying product names, flagging stale statistics, and stripping tracking parameters before they reach the public.
+**While I write.** Structure, titles, hooks, and honest line-by-line feedback. When my own edit makes a sentence weaker, it says so and explains why.
 
-**After publishing.** Repurposing one piece into a feed post, carousel notes, and a lightweight promotion plan, plus series consistency: sequels link back, frameworks never repeat across pieces, and the voice stays recognizable from one article to the next.
+**After I publish.** One article becomes a feed post, carousel notes, and a promotion plan, and the next piece in the series stays consistent with the last one.
 
-It also checks grammar. 
+## The rules it enforces
 
-## Design principles
+- **No invented facts.** No made-up examples, data, quotes, or stories, ever. Missing information gets marked "Not provided."
+- **Outline before draft.** Long pieces start with an outline I approve, so revisions happen while they are still cheap.
+- **My latest edit wins.** It never quietly reverts something I changed.
+- **My voice is protected.** A reference file lists the words, patterns, and punctuation habits that make writing sound AI-generated, and every draft gets swept for them.
+- **The formula is written down.** My best-performing pieces share a structure (a personal story that creates recognition, one surprising reframe early, a numbered framework with copy-paste value, and a warm close), and the skill applies it to new drafts.
+- **Every point faces one question:** what can my target audience do after reading this content?
 
-- **Source facts are sacred.** The skill never invents examples, data, quotes, or names. Missing information is flagged as `Not provided` or `Proof needed` instead of papered over.
-- **Outline before draft.** Long-form work is gated on an approved outline.
-- **The latest human version wins.** The skill treats the author's most recent edit as the source of truth.
-- **Voice is enforced.** A reference file defines the tone, banned filler words, and banned sentence patterns: the tells that make writing sound AI-generated.
-- **Every point must survive one test:** *what can my target audience do after reading this content?*
+## How it is organized
 
-## Architecture
-
-The skill uses progressive disclosure: a compact `SKILL.md` entry point that loads deeper instruction files only when the task needs them.
+A small entry file holds the rules and decides which deeper instructions to load for each task, so the skill stays fast and focused.
 
 ```
 weiwei-content-editor/
@@ -57,9 +61,9 @@ weiwei-content-editor/
 └── examples/                 # sample trigger requests
 ```
 
-## Quality process
+## How it was tested
 
-The skill was iteratively improved and benchmarked with Anthropic's skill-creator tooling: parallel test runs against a baseline snapshot, assertion-based grading (outline discipline, template fidelity, banned-word scans, fact-preservation checks), and a human review loop.
+The skill was tested with parallel runs against a baseline version, graded on things that can be checked (did it stop at the outline, did it preserve every fact, did any banned word slip through), and improved through live editing sessions on real articles.
 
 ## Author
 
