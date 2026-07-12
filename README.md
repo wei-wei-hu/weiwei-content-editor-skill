@@ -56,6 +56,11 @@ The skill was iteratively improved and benchmarked with Anthropic's skill-creato
 
 Built by **Weiwei Hu**. Executive content on AI adoption, analytics leadership, and career strategy.
 
+Read the work this skill produces:
+
+- [Second Draft Studio](https://seconddraftstudio.substack.com/), her newsletter
+- [Medium](https://medium.com/@weiwei.hu)
+
 ---
 
 Copyright (c) 2026 Weiwei Hu. This showcase is licensed under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/): you may share it with credit, but not modify or use it commercially. The skill itself (prompts, voice rules, workflows, templates) is proprietary and all rights to it are reserved.
